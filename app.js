@@ -11,12 +11,12 @@ import PhoneRouter from "./routes/Phone.routes.js";
 const app = express();
 app.use(express.json())
 
-app.use("/Brand", BrandRouter)
-app.use("/Customer", CustomerRouter)
-app.use("/Model", ModelRouter)
-app.use("/Order_detail", Order_detailRouter)
-app.use("/Order", OrderRouter)
-app.use("/Phone", PhoneRouter)
+app.use("/brand", BrandRouter)
+app.use("/customer", CustomerRouter)
+app.use("/model", ModelRouter)
+app.use("/order_detail", Order_detailRouter)
+app.use("/order", OrderRouter)
+app.use("/phone", PhoneRouter)
 
 
 // Сначала подключаемся к базе
