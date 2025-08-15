@@ -22,6 +22,4 @@ const Ordershema= new mongoose.Schema({
     }
 })
 
-const Order=mongoose.model("Order",Ordershema)
-
-export default Order
+export const Order=mongoose.model("Order",Ordershema)

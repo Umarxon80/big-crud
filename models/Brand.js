@@ -10,6 +10,4 @@ const Brandshema= new mongoose.Schema({
     }
 })
 
-const Brand=mongoose.model("Brand",Brandshema)
-
-export default Brand
+export const Brand=mongoose.model("Brand",Brandshema)

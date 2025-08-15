@@ -36,6 +36,4 @@ const Phoneshema= new mongoose.Schema({
     }
 })
 
-const Phone=mongoose.model("Phone",Phoneshema)
-
-export default Phone
+export const Phone=mongoose.model("Phone",Phoneshema)

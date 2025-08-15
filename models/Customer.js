@@ -13,6 +13,5 @@ const Customershema= new mongoose.Schema({
     }
 })
 
-const Customer=mongoose.model("Customer",Customershema)
+export const Customer=mongoose.model("Customer",Customershema)
 
-export default Customer

@@ -20,6 +20,5 @@ const Order_detailshema= new mongoose.Schema({
     }
 })
 
-const Order_detail=mongoose.model("Order_detail",Order_detailshema)
+export const Order_detail=mongoose.model("Order_detail",Order_detailshema)
 
-export default Order_detail
